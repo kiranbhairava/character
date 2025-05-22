@@ -218,7 +218,7 @@ if submitted and user_input:
             response = model.generate_content(
                 test_prompt,
                 generation_config={
-                    "max_output_tokens": 256  # You can adjust this value as needed
+                    "max_output_tokens": 1054  # You can adjust this value as needed
                 }
             )
             reply = getattr(response, 'text', None)
